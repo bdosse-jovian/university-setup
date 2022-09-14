@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: real function
+# key: cfun
+# condition: 'auto
+# --
+f: $1 \C \to \C $0

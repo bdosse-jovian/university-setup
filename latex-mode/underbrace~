@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: limit
+# key: lmm
+# condition: 'auto
+# --
+\underbrace{$1}{$2} $0

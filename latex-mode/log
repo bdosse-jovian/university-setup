@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: natural logarithm
+# key: lln
+# condition: 'auto
+# --
+\ln{${1:x}} $0

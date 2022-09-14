@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: real function
+# key: rfun
+# condition: 'auto
+# --
+f: $1 \R \to \R $0

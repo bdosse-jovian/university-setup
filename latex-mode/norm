@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: scalar product
+# key: nrm
+# condition: 'auto
+# --
+\norm{$1} $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: sum
+# key: sum
+# condition: 'auto
+# --
+
+\sum$0

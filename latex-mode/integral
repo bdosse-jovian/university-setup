@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: integral
+# key: itg
+# condition: 'auto
+# --
+\int$0

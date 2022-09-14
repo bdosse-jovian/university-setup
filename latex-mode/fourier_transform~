@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: general fourier transform
+# key: frt
+# condition: 'auto
+# --
+$\Cal{F}^{${1:\pm}}_{${2:y}} ${3:f} $0

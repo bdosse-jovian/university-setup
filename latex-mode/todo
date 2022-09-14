@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: todo
+# key: todo
+# condition: 'auto
+# --
+\begin{alert}
+$1
+\end{alert}

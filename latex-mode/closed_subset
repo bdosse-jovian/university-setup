@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: closed subset
+# key: csbs
+# condition: 'auto
+# --
+F \subset $0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: filtration
+# key: f!
+# condition: 'auto
+# --
+\Cal{${1:F}} $0

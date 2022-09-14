@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: compact subset
+# key: ksbs
+# condition: 'auto
+# --
+K \subset $0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: kronecker symbol
+# key: krn
+# condition: 'auto
+# --
+\delta_{${1:i,j}} $0

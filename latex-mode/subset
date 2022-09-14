@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: subset
+# key: sbs
+# condition: 'auto
+# --
+\subset $0

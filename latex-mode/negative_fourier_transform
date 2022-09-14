@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: negative fourier transform
+# key: ft-
+# condition: 'auto
+# --
+\widehat{${1:f}}$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: mapsto
+# key: ->
+# condition: 'auto
+# --
+\to $0

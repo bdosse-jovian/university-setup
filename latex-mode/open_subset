@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: open subset
+# key: osbs
+# condition: 'auto
+# --
+\Omega \subset $0

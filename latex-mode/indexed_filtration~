@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: indexed filtration
+# key: fz!
+# condition: 'auto
+# --
+\Cal{F}_{${1:0}} $0

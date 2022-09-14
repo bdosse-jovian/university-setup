@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: span
+# key: Span
+# condition: 'auto
+# --
+\Span{$1} $0

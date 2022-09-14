@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: pi
+# key: pk 
+# condition: 'auto
+# --
+\pi $0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: expectation
+# key: exs
+# condition: 'auto
+# --
+\Esp{$1} $0

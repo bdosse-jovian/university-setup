@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: conditional expectation
+# key: cex
+# condition: 'auto
+# --
+\Esp{${1:X}|${2:Y}} $0

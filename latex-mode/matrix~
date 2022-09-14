@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: todo
+# key: todo
+# condition: 'auto
+# --
+\begin{pmatrix}
+$1
+\end{pmatrix}
+$0

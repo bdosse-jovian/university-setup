@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: series
+# key: sss
+# condition: 'auto
+# --
+\sum_{${1:m}=${2:1}}^{\infty} $0

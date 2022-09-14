@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: probability space
+# key: pss
+# condition: 'auto
+# --
+\left(${1:\Omega},${2:\Cal{G}},${3:\P}\right) $0

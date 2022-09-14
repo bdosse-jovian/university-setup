@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: underbrace
+# key: udb
+# condition: 'auto
+# --
+\underbrace{$1}{$2} $0

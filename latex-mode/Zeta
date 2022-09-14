@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: xi
+# key: xy
+# condition: 'auto
+# --
+\xi $0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: footnote
+# key: ftn
+# condition: 'auto
+# --
+\footnote{$1} $0
