@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: espace-topo
+# key: tp
+# condition: 'auto
+# --
+$left(${1:X}, ${2:\Cal{T}}\right)$ $0

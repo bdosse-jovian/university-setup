@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: complex-func
+# key: cff
+# condition: 'auto
+# --
+${1:f} : ${2:${3:\C} to ${4:\C} :} ${5:x} \mapsto ${6:f(x)} $0

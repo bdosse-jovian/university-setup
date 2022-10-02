@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: delta
+# key: dlt
+# condition: 'auto
+# --
+\delta $0

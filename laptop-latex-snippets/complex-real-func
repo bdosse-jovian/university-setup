@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: complex-real-func
+# key: crf
+# condition: 'auto
+# --
+${1:f} : ${2:${3:\C} to ${4:\R} :} ${5:x} \mapsto ${6:f(x)} $0

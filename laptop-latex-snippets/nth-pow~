@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: nth-power
+# key: ntpow
+# condition: 'auto
+# --
+^{n} $0

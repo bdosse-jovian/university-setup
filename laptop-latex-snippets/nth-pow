@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: nth-power
+# key: nnn
+# condition: 'auto
+# --
+^{${1:n}} $0

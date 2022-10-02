@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: mathbbH
+# key: HH
+# condition : 'auto
+# --
+$\H$$0

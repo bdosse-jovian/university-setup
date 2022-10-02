@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: topo
+# key: tp
+# --
+$left(${1:X}, ${2:\Cal{T}}\right)$ $0

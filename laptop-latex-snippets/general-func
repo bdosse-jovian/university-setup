@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: general-func
+# key: ggf
+# condition: 'auto
+# --
+${1:f} : ${2:${3:X} to ${4:X} :} ${5:x} \mapsto ${6:f(x)} $0

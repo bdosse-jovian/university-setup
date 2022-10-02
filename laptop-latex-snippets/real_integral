@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: real-integral
+# key: rint_
+# condition: 'auto
+# --
+\int_{\R} ${1:f(x)} d${2:x}

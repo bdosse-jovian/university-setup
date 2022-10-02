@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: mathbbC
+# key: CC
+# condition : 'auto
+# --
+$\C$$0

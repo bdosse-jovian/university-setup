@@ -12,11 +12,10 @@ try:
 except ValueError:
     args = []
 
-code, index, selected = rofi('Select course', [c.info['title'] for c in courses], [
-    '-auto-select',
-    '-no-custom',
-    '-lines', len(courses)
-] + args)
+code, index, selected = rofi('Select course',
+                             [c.info['title'] for c in courses],
+                             ['-auto-select', '-no-custom',
+                              '-lines', len(courses)] + args)
 
 if index >= 0:
     courses.current = courses[index]

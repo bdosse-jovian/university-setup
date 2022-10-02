@@ -1,6 +1,7 @@
 # Managing LaTeX lecture notes
 
-This repository complements my [third blog post about my note taking setup](https://castel.dev/post/lecture-notes-3).
+This repository complements my [third blog post about my note taking
+setup](https://castel.dev/post/lecture-notes-3).
 
 #### File structure
 
@@ -85,33 +86,6 @@ type = custom/script
 tail = true
 exec = echo '/tmp/current_course' | entr cat /tmp/current_course
 ```
-
-
-#### `countdown.py`
-
-This script hooks into your calendar, which you can configure in the `config.py` file.
-If you're using polybar, you can use the following config:
-
-```ini
-[module/calendar]
-type = custom/script
-exec = TZ='Europe/Brussels' python3 -u ~/scripts/uni/countdown.py
-click-left = sensible-browser 'https://calendar.google.com/calendar/' -- &
-tail = true
-```
-
-It activates the course if the title of the course can be found in the description of the calendar event:
-```python
-course = next(
-    (course for course in courses
-     if course.info['title'].lower() in event['summary'].lower()),
-    None
-)
-```
-
-You can easily change this by for example adding a `calendar_name` to each `info.yaml` file and checking with `if course.info['calendar_name'] == event['summary']` or something like that.
-
-To get it working, follow step 1 and 2 of the [Google Calendar Python Quickstart](https://developers.google.com/calendar/quickstart/python), and place `credentials.json` in the `scripts` directory.
 
 #### `lectures.py`
 

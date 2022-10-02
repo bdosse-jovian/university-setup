@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: iintegral
+# key: iint_
+# condition: 'auto
+# --
+iint_{${1:X}} ${2:f(x)} d${3:x} $0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: banach
+# key: banach
+# --
+$\left(E, \|\cdot\|\right)$

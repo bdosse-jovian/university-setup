@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: squared
+# key: ssq
+# condition: 'auto
+# --
+^{2} $0

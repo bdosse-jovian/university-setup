@@ -7,28 +7,28 @@ import locale
 import re
 import subprocess
 
-
 from config import get_week, DATE_FORMAT, CURRENT_COURSE_ROOT
 
-# TODO
-locale.setlocale(locale.LC_TIME, "nl_BE.utf8")
+
+locale.setlocale(locale.LC_TIME, "fr_FR.utf8")
 
 
 def number2filename(n):
     return 'lec_{0:02d}.tex'.format(n)
 
+
 def filename2number(s):
     return int(str(s).replace('.tex', '').replace('lec_', ''))
+
 
 class Lecture():
     def __init__(self, file_path, course):
         with file_path.open() as f:
             for line in f:
-                lecture_match = re.search(r'lecture\{(.*?)\}\{(.*?)\}\{(.*)\}', line)
+                lecture_match = re.search(
+                    r'lecture\{(.*?)\}\{(.*?)\}\{(.*)\}', line)
                 if lecture_match:
-                    break;
-
-        # number = int(lecture_match.group(1))
+                    break
 
         date_str = lecture_match.group(2)
         date = datetime.strptime(date_str, DATE_FORMAT)
@@ -44,11 +44,7 @@ class Lecture():
         self.course = course
 
     def edit(self):
-        subprocess.Popen([
-            "x-terminal-emulator",
-            "-e", "zsh", "-i", "-c",
-            f"\\vim --servername kulak --remote-silent {str(self.file_path)}"
-        ])
+        subprocess.run(["emacsclient", str(self.file_path)], check=False)
 
     def __str__(self):
         return f'<Lecture {self.course.info["short"]} {self.number} "{self.title}">'

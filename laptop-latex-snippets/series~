@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: series
+# key: ssr
+# condition: 'auto
+# --
+\sum_{${1:j} = ${2:1}}^{${3:\infty}} $0

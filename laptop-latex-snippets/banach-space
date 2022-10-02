@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: banach
+# key: banach
+# condition: 'auto
+# --
+$\left(E, \|\cdot\|\right)$

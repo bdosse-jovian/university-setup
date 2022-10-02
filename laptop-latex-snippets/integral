@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: integral
+# key: int_
+# condition: 'auto
+# --
+\int_{${1:X}}^{$2} ${3:f(x)} d${4:x} $0

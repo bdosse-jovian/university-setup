@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: measurable space
+# key: mspace
+# condition: 'auto
+# --
+$\left($1:X, $2:\Cal{A}\right)$ $0

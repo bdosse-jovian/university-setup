@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: mathbbQ
+# key: QQ
+# condition : 'auto
+# --
+$\Q$$0

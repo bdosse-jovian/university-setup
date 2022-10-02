@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: prob-space
+# key: pspace
+# condition: 'auto
+# --
+$\left(${1:\Omega}, ${2:\Cal{A}}, ${3:\P}\right)$ $0

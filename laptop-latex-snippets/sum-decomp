@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: decomposition sum
+# key: dss
+# condition: 'auto
+# --
+\sum_{${1:k}\in${2:\N}} $0

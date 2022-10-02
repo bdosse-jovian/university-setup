@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: wavelet
+# key: wvl
+# condition: 'auto
+# --
+\psi_{${1:j},${2:k}}

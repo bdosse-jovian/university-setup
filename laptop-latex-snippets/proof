@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: proof
+# key: prf
+# condition: 'auto
+# --
+\begin{proof}
+$1
+\end{proof}
+$0

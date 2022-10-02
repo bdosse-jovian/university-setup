@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: display-mode
+# key: mmm
+# condition: 'auto
+# --
+\[ $1
+.\] $0

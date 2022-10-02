@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: cubed
+# key: ccb
+# condition: 'auto
+# --
+^{3} $0

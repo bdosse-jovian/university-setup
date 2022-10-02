@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: mathcalN
+# key: Nn
+# condition : 'auto
+# --
+\Cal{N}$0

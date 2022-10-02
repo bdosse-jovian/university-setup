@@ -10,7 +10,7 @@ class Course():
         self.path = path
         self.name = path.stem
 
-        self.info = yaml.load((path / 'info.yaml').open())
+        self.info = yaml.safe_load((path / 'info.yaml').open())
         self._lectures = None
 
     @property
@@ -20,9 +20,9 @@ class Course():
         return self._lectures
 
     def __eq__(self, other):
-        if other == None:
+        if other is None:
             return False
-        return self.path == other.path
+        return self.path is other.path
 
 class Courses(list):
     def __init__(self):

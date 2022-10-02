@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: scalar product
+# key: spd
+# condition: 'auto
+# --
+\langle $1,$2 \rangle $0

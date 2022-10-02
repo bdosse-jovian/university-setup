@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: mathbbK
+# key: KK
+# condition : 'auto
+# --
+$\K$$0
