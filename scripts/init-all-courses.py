@@ -6,7 +6,7 @@ for course in Courses():
     course_title = lectures.course.info["title"]
 
     lines = [r'\documentclass[a4paper, 11pt]{article}',
-             r'\input{./static/preamble.tex}'
+             r'\input{./static/preamble.tex}',
              r'\input{./static/article.tex}',
              r'% \input{./static/book.tex}',
              r'\makeatletter',
