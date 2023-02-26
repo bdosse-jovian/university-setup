@@ -137,9 +137,17 @@ class Lectures(list):
 
     def compile_master(self):
         result = subprocess.run(
-            ['latexmk', '-f', '-interaction=nonstopmode', str(self.master_file)],
+            ['latexmk', '-f', '-pdf', '-interaction=nonstopmode', str(self.master_file)],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
             cwd=str(self.root)
         )
         return result.returncode
+
+
+class Beamers(Lectures):
+    def __init__(self, course):
+        self.course = course
+        self.root = course.path
+        self.master_file = self.root / beamers / 'master.tex'
+        list.__init__(self, self.read_files())
